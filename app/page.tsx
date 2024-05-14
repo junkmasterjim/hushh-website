@@ -44,6 +44,14 @@ const Home = () => {
 					>
 						<Button>Download for free</Button>
 					</Link>
+
+					<Link
+						href={"https://npitt.dev"}
+						target="_blank"
+						className="mt-8 text-muted-foreground hover:underline"
+					>
+						made with 🥩 by noah pittman
+					</Link>
 				</div>
 			</section>
 		</>
