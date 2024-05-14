@@ -5,7 +5,7 @@ import Link from "next/link";
 const Home = () => {
 	return (
 		<>
-			<section className="container bg-[url('/bg.png')] bg-center bg-cover bg-no-repeat">
+			<section className="container bg-[url('/bg.png')] bg-center bg-cover bg-no-repeat h-full">
 				<div className="flex flex-col items-center justify-ceter py-12 sm:pt-24 max-w-prose mx-auto text-center">
 					<h1 className="text-7xl font-semibold line-through">hushh</h1>
 					<p className="mt-4">
