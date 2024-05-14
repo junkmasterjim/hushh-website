@@ -16,14 +16,11 @@ const Home = () => {
 					</p>
 
 					<div className="mt-12 space-x-4">
-						<Link
-							target="_blank"
-							href="https://dropbox.com/scl/fi/0yw86sko4qvjph8cp0jvz/hushh.zip?rlkey=ykkapejh4x9g3fvm05qc2wz8j&st=7qlvudlr&dl=1"
-						>
+						<Link href="/download">
 							<Button>Download</Button>
 						</Link>
 						<Link href={"https://github.com/noahpittman/hushh"} target="_blank">
-							<Button variant={"ghost"}>Github</Button>
+							<Button variant={"secondary"}>Github</Button>
 						</Link>
 					</div>
 
@@ -38,10 +35,7 @@ const Home = () => {
 						/>
 					</div>
 
-					<Link
-						target="_blank"
-						href="https://dropbox.com/scl/fi/0yw86sko4qvjph8cp0jvz/hushh.zip?rlkey=ykkapejh4x9g3fvm05qc2wz8j&st=7qlvudlr&dl=1"
-					>
+					<Link href={"/download"}>
 						<Button>Download for free</Button>
 					</Link>
 
